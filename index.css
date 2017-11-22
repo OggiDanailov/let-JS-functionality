@@ -1,0 +1,23 @@
+#img1, #img2, #img3, #img4 {
+	border: 2px solid;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+#img1 {
+	background-color: green;
+}
+
+#img2 {
+	background-color: blue;
+
+} 
+
+#img3 {
+	background-color: red;
+}
+
+#img4 {
+	background-color: orange;
+}
