@@ -3,17 +3,15 @@ var array = ['green', 'blue', 'red', 'orange']
 
 
 for(let i=0;i<button.length;i++){
-	button[i].addEventListener('click', function(){
-		
+	button[i].addEventListener('click', function(){	
 	showColor(i)
-
 	})
 
 }
 
 
 function showColor(x){
-	console.log(array[x])
+	console.log('For ' + array[x] + " color I pressed " + (x + 1))
 }
 
 //////
